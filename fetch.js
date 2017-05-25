@@ -4,7 +4,7 @@ var res = "";
 for (var k = 0; k < info.length; k++) {
   var el = info[k];
   res += "<tr><td>" + el.children[2].children[0].innerHTML + "</td>";
-  for (var i = 6; i < el.children.length; i++) {
+  for (var i = 5; i < el.children.length; i++) {
     var curr = el.children[i].children;
     var val;
 
