@@ -9,11 +9,11 @@ for (var k = 0; k < info.length; k++) {
     var val;
 
     if (curr.length == 0) {
-      val = " ";
+      val = "";
     } else if (curr[0].children.length == 0) {
-      val = curr[0].innerHTML+"#-";
+      val = curr[0].innerHTML+" # --";
     } else {
-      val = curr[0].innerText.replace(" - ", "#");
+      val = curr[0].innerText.replace(" - ", " # ");
     }
 
     res += "<td>"+val+"</td>"
